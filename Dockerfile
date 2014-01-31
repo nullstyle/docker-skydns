@@ -1,4 +1,5 @@
 FROM stackbrew/ubuntu:saucy
+MAINTAINER Scott Fleckenstein <nullstyle@gmail.com>
 
 ENV     HOME /root
 ENV     GOPATH /root/go
