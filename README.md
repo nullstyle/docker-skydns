@@ -23,7 +23,7 @@ docker build -t skydns github.com/nullstyle/docker-skydns
 # expose port 8080 for writing to the db (i.e. announcing services)
 # expose port 53 for serving dns queries
 
-docker run -p 8080:8080 -p 53:53 -i -t skydns
+docker run -p 8080:8080 -p 53:53/udp -i -t skydns
 ```
 
 ## Using
